@@ -6,8 +6,7 @@ This project was developed as part of a team effort for [ENGG1420's Final Projec
 - **Nikita Upadhyay** – Frontend Developer (UIUX - Scenebuilder) + Backend Assistance (Events Logic)
 - **Hamza Khan** – Backend Developer (Subject, Faculty and Courses Logic)
 - **Cherith Boya** – Backend Developer (User, Admin and Faculty Authentication, Student Logic)
-- **Mark Touzo** – QA & Testing, Documentation (User, Admin and Faculty Authentication, Student Logic)
-
+- **Mark Touzo** – Backend Developer (User, Admin and Faculty Authentication, Student Logic)
 # Mini Project 2: cryptoMagic Encryption/Decryption Tool 
 ### Author: Nikita Upadhyay
 
