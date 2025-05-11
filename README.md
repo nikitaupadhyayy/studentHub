@@ -84,4 +84,4 @@ The Academic Database Management System is a JavaFX desktop application built to
 - Clean layout with role-specific dashboards
 - Modular, scalable controller architecture
 
-##[Read our Report!](https://example.com)
+[Read our Report!](https://example.com)
