@@ -7,8 +7,6 @@ This project was developed as part of a team effort for [ENGG1420's Final Projec
 - **Hamza Khan** – Backend Developer (Subject, Faculty and Courses Logic)
 - **Cherith Boya** – Backend Developer (User, Admin and Faculty Authentication, Student Logic)
 - **Mark Touzo** – Backend Developer (User, Admin and Faculty Authentication, Student Logic)
-# Mini Project 2: cryptoMagic Encryption/Decryption Tool 
-### Author: Nikita Upadhyay
 
 ## 📚 Summary  
 The Academic Database Management System is a JavaFX desktop application built to support university operations through role-based access for Admins, Faculty, and Students. It enables administrators to manage user records and academic events, while faculty and students can view, register for, and interact with courses and events. The system uses file I/O for data storage, ensuring persistence without a database. Developed as a team project, it demonstrates practical skills in GUI design, object-oriented programming, and user-focused functionality.
