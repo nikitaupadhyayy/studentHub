@@ -3,7 +3,7 @@
 ### 👥 Team Members
 This project was developed as part of a team effort for [ENGG1420's Final Project].
 
-- **Nikita Upadhyay** – Frontend Developer (UIUX - Scenebuilder) + Backend Assistant (Events Logic)
+- **Nikita Upadhyay** – Frontend Developer (UIUX - Scenebuilder) + Backend Assistance (Events Logic)
 - **Hamza Khan** – Backend Developer (Subject, Faculty and Courses Logic)
 - **Cherith Boya** – Backend Developer (User, Admin and Faculty Authentication, Student Logic)
 - **Mark Touzo** – QA & Testing, Documentation (User, Admin and Faculty Authentication, Student Logic)
