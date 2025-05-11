@@ -1,0 +1,13 @@
+Hamza Khan, 123456789876, 123 Hello, 234567, hkhan@student.ca, Undergraduate, BENG - Computer Engineering, F24, F0BN5
+Nikita Upa, 1234567, 123 ATL, 98765678987, nupa@student.ca, Undergraduate, BENG - Sys and Eng, F25, aaa
+Julian Kew, 12345654, 123 Bramp, 45676567876, jkew@student.ca, Undergraduate, BSCI - Chemistry, W25, bbb
+Cherith Boya, 1234567, 123 New York, 6789098765, cboya@student.ca, Graduate, BENG - Computer Engineering, F25, aaa
+Mark Touzo, 123456587, 123 Jersey, 6478657869, mtouzo@admin.ca, Graduate, BENG - Comp Eng, W25, aaa
+Jane Doe, 123456787654, 1234 Kings, 6479871234, jdoe@faculty.ca, Graduate, BENG - Mech Eng, W25, aaa
+SpongeBob Squarepants, 46359136, Pineapple, 1231231234, ssquare@faculty.ca, Graduate, 123 Bikini Bottom, W25, rC7Vs
+64108671	Hamza	H	h	h	h	h	h	h	Ne3zO
+Hamza, 64108671, h, h, h, Graduate, h, W25, Ne3zO
+64251840	K	k	k	k	k	k	k	k	KP6lL
+K, 64251840, k, k, k, Graduate, k, W25, KP6lL
+64420135	Ad	a	a	a	a	a	a	a	lztrP
+Ad, 64420135, a, a, a, Graduate, a, W25, lztrP

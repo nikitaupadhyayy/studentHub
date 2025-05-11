@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1272.0" style="-fx-background-color: #0C131D;"
+            xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.authenticationframes.AdminAddEventController">
+
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="1272.0" layoutY="-7.0" opacity="0.6" pickOnBounds="true"
+                 AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                 AnchorPane.topAnchor="-7.0">
+         <image>
+            <Image url="@../../../background.images/img_1.png"/>
+         </image>
+      </ImageView>
+
+      <!-- Form Container -->
+      <Pane layoutX="69.0" layoutY="69.0" prefHeight="280.0" prefWidth="1182.0">
+         <children>
+            <!-- Event Fields -->
+            <Text fill="WHITE" layoutX="2.0" layoutY="72.0" text="Event Name">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="eventNameField" layoutX="162.0" layoutY="43.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutX="619.0" layoutY="72.0" text="Event Code">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="eventCodeField" layoutX="751.0" layoutY="43.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutY="141.0" text="Location">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="locationField" layoutX="162.0" layoutY="111.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutX="619.0" layoutY="141.0" text="Date/Time">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="dateTimeField" layoutX="751.0" layoutY="109.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="212.0" text="Capacity">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="capacityField" layoutX="162.0" layoutY="180.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutX="618.0" layoutY="213.0" text="Cost">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="costField" layoutX="751.0" layoutY="180.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutX="2.0" layoutY="276.0" text="Description">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="descriptionField" layoutX="162.0" layoutY="254.0" prefHeight="46.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+
+            <Text fill="WHITE" layoutX="618.0" layoutY="276.0" text="Enrollment">
+               <font><Font size="22.0"/></font>
+            </Text>
+            <TextField fx:id="enrollmentField" layoutX="751.0" layoutY="248.0" prefHeight="45.0" prefWidth="421.0"
+                       style="-fx-background-color: #373737; -fx-text-fill: white;"/>
+         </children>
+      </Pane>
+
+      <!-- Buttons -->
+      <Button fx:id="cancelButton" layoutX="526.0" layoutY="545.0" prefHeight="30.0" prefWidth="343.0"
+              style="-fx-background-color: #193355; -fx-font-size: 14;" text="Cancel" textFill="WHITE">
+         <font><Font name="Dubai Bold" size="14.0"/></font>
+         <effect><DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0"/></effect>
+      </Button>
+
+      <Button fx:id="addEventButton" onAction="#addEvent" layoutY="456.0" prefHeight="78.0" prefWidth="343.0"
+              style="-fx-background-color: #193355; -fx-font-size: 20;" text="Add Event" textFill="WHITE">
+         <font><Font name="Dubai Bold" size="20.0"/></font>
+         <effect><DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0"/></effect>
+      </Button>
+
+      <!-- Back Button -->
+      <Button fx:id="backButton" onAction="#handleBackButton" layoutX="70.0" layoutY="580.0" prefHeight="40.0" prefWidth="150.0"
+              style="-fx-background-color: #193355; -fx-font-size: 16;" text="Back" textFill="WHITE">
+         <font><Font name="Dubai Bold" size="16.0"/></font>
+         <effect><DropShadow height="31.0" offsetX="-2.0" offsetY="1.0" radius="16.0" width="35.0"/></effect>
+      </Button>
+   </children>
+</AnchorPane>
